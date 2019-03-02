@@ -45,7 +45,7 @@ displayErr() {
     
     # update package and upgrade Ubuntu
     sudo apt-get -y update 
-    sudo apt-get -y upgrade
+    sudo install nano curl wget htop mc apt-transport-https
     sudo apt-get -y autoremove
     
     output " "
