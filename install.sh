@@ -115,6 +115,7 @@ default         0;
     sudo aptitude -y install mutt
     sudo aptitude -y install git screen
     sudo aptitude -y install pwgen -y
+    sudo aptitude -y install libmysqlclient-dev -y
 
 
     #Installing Package to compile crypto currency
